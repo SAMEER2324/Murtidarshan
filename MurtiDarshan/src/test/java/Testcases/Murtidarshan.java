@@ -13,6 +13,8 @@ public class Murtidarshan {
 	
 	@Test
 	public void darshan() throws InterruptedException {
+	
+	WebDriverManager.chromedriver().setup();
 	WebDriver driver = new ChromeDriver();
 
 		driver.get("https://www.baps.org");
